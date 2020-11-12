@@ -6,7 +6,7 @@ import "../stylesheets/App.css";
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="main-container">
         <h1>Mi lista de pokemon</h1>
         <PokeList data={pokemonInfo} />
       </div>
