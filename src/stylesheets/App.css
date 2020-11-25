@@ -5,20 +5,38 @@
 }
 
 .main-container {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.pokemon-list {
+.poke-list-container {
+  margin: 5%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.poke-list {
   border: 2px solid aqua;
   border-radius: 10px;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
 }
 
 .items {
-  display: flex;
-  flex-direction: row;
+  border: 2px solid rgb(179, 179, 179);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border ease 1s, background-color ease;
 }
 
 .pokemon {
